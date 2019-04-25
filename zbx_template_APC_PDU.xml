@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.0</version>
-    <date>2019-04-25T10:14:20Z</date>
+    <date>2019-04-25T11:37:08Z</date>
     <groups>
         <group>
             <name>Templates</name>
@@ -24,7 +24,7 @@
             </applications>
             <items>
                 <item>
-                    <name>rPDUIdentDateOfManufacture</name>
+                    <name>Date Of Manufacture</name>
                     <type>1</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>1.3.6.1.4.1.318.1.1.12.1.4.0</snmp_oid>
@@ -79,7 +79,7 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>rPDUIdentDeviceBreakerRating</name>
+                    <name>Breaker Rating</name>
                     <type>1</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>1.3.6.1.4.1.318.1.1.12.1.11.0</snmp_oid>
@@ -90,7 +90,7 @@
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
-                    <units/>
+                    <units>A</units>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -134,7 +134,7 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>rPDUIdentDeviceNumBreakers</name>
+                    <name>Number Of Breakers</name>
                     <type>1</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>1.3.6.1.4.1.318.1.1.12.1.10.0</snmp_oid>
@@ -189,7 +189,7 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>rPDUIdentDeviceNumOutlets</name>
+                    <name>Number Of Outlets</name>
                     <type>1</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>1.3.6.1.4.1.318.1.1.12.1.8.0</snmp_oid>
@@ -244,7 +244,7 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>rPDUIdentDeviceNumPhases</name>
+                    <name>Number Of Phases</name>
                     <type>1</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>1.3.6.1.4.1.318.1.1.12.1.9.0</snmp_oid>
@@ -299,7 +299,7 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>rPDUIdentDevicePowerWatts</name>
+                    <name>Total Power Kilowatts</name>
                     <type>1</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.318.1.1.12.1.16.0</snmp_oid>
@@ -359,7 +359,7 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>rPDUIdentDeviceRating</name>
+                    <name>Device Rating</name>
                     <type>1</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>1.3.6.1.4.1.318.1.1.12.1.7.0</snmp_oid>
@@ -370,7 +370,7 @@
                     <status>0</status>
                     <value_type>3</value_type>
                     <allowed_hosts/>
-                    <units/>
+                    <units>A</units>
                     <snmpv3_contextname/>
                     <snmpv3_securityname/>
                     <snmpv3_securitylevel>0</snmpv3_securitylevel>
@@ -414,7 +414,7 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>rPDUIdentFirmwareRev.0</name>
+                    <name>Firmware Version</name>
                     <type>1</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.318.1.1.12.1.3.0</snmp_oid>
@@ -469,7 +469,7 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>rPDUIdentHardwareRev</name>
+                    <name>Hardware Version</name>
                     <type>1</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>1.3.6.1.4.1.318.1.1.12.1.2.0</snmp_oid>
@@ -524,7 +524,7 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>rPDUIdentModelNumber.0</name>
+                    <name>Model Number</name>
                     <type>1</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.318.1.1.12.1.5.0</snmp_oid>
@@ -579,7 +579,7 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>rPDUIdentName.0</name>
+                    <name>Device Name</name>
                     <type>1</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.318.1.1.12.1.1.0</snmp_oid>
@@ -634,7 +634,7 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>rPDUIdentSerialNumber.0</name>
+                    <name>Serial Number</name>
                     <type>1</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.318.1.1.12.1.6.0</snmp_oid>
@@ -689,7 +689,7 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Load Bank Total</name>
+                    <name>Total Load</name>
                     <type>1</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.318.1.1.12.2.3.1.1.2.1</snmp_oid>
@@ -749,7 +749,7 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Load Bank B1</name>
+                    <name>Bank 1 Load</name>
                     <type>1</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.318.1.1.12.2.3.1.1.2.2</snmp_oid>
@@ -809,7 +809,7 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Load Bank B2</name>
+                    <name>Bank 2 Load</name>
                     <type>1</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.318.1.1.12.2.3.1.1.2.3</snmp_oid>
@@ -869,7 +869,7 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Load State Status Total</name>
+                    <name>Total Load Status</name>
                     <type>1</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.318.1.1.12.2.3.1.1.3.1</snmp_oid>
@@ -900,7 +900,7 @@
                     <inventory_link>0</inventory_link>
                     <applications/>
                     <valuemap>
-                        <name>APC Status Load State</name>
+                        <name>APC PDU Load Status</name>
                     </valuemap>
                     <logtimefmt/>
                     <preprocessing/>
@@ -926,7 +926,7 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Load State Status Bank B1</name>
+                    <name>Bank 1 Load Status</name>
                     <type>1</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.318.1.1.12.2.3.1.1.3.2</snmp_oid>
@@ -957,7 +957,7 @@
                     <inventory_link>0</inventory_link>
                     <applications/>
                     <valuemap>
-                        <name>APC Status Load State</name>
+                        <name>APC PDU Load Status</name>
                     </valuemap>
                     <logtimefmt/>
                     <preprocessing/>
@@ -983,7 +983,7 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>Load State Status Bank B2</name>
+                    <name>Bank 2 Load Status</name>
                     <type>1</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>.1.3.6.1.4.1.318.1.1.12.2.3.1.1.3.3</snmp_oid>
@@ -1014,7 +1014,7 @@
                     <inventory_link>0</inventory_link>
                     <applications/>
                     <valuemap>
-                        <name>APC Status Load State</name>
+                        <name>APC PDU Load Status</name>
                     </valuemap>
                     <logtimefmt/>
                     <preprocessing/>
@@ -1040,7 +1040,7 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>rPDUPowerSupply1Status</name>
+                    <name>Power Supply 1 Status</name>
                     <type>1</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>1.3.6.1.4.1.318.1.1.12.4.1.1.0</snmp_oid>
@@ -1097,7 +1097,7 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>rPDUPowerSupply2Status</name>
+                    <name>Power Supply 2 Status</name>
                     <type>1</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>1.3.6.1.4.1.318.1.1.12.4.1.2.0</snmp_oid>
@@ -1154,7 +1154,7 @@
                     <master_item/>
                 </item>
                 <item>
-                    <name>rPDUPowerSupplyAlarm</name>
+                    <name>Power Supply Alarm</name>
                     <type>1</type>
                     <snmp_community>{$SNMP_COMMUNITY}</snmp_community>
                     <snmp_oid>1.3.6.1.4.1.318.1.1.12.4.1.3.0</snmp_oid>
@@ -1525,23 +1525,44 @@
             </mappings>
         </value_map>
         <value_map>
+            <name>APC PDU Load Status</name>
+            <mappings>
+                <mapping>
+                    <value>1</value>
+                    <newvalue>Low Load</newvalue>
+                </mapping>
+                <mapping>
+                    <value>2</value>
+                    <newvalue>Normal</newvalue>
+                </mapping>
+                <mapping>
+                    <value>3</value>
+                    <newvalue>Near Overload</newvalue>
+                </mapping>
+                <mapping>
+                    <value>4</value>
+                    <newvalue>Overload</newvalue>
+                </mapping>
+            </mappings>
+        </value_map>
+        <value_map>
             <name>APC PDU Power Supply Alarm</name>
             <mappings>
                 <mapping>
                     <value>1</value>
-                    <newvalue>allAvailablePowerSuppliesOK</newvalue>
+                    <newvalue>All Power Supplies OK</newvalue>
                 </mapping>
                 <mapping>
                     <value>2</value>
-                    <newvalue>powerSupplyOneFailed</newvalue>
+                    <newvalue>Power Supply 1 Failed</newvalue>
                 </mapping>
                 <mapping>
                     <value>3</value>
-                    <newvalue>powerSupplyTwoFailed</newvalue>
+                    <newvalue>Power Supply 2 Failed</newvalue>
                 </mapping>
                 <mapping>
                     <value>4</value>
-                    <newvalue>powerSupplyOneandTwoFailed</newvalue>
+                    <newvalue>Power Supply 1 and 2 Failed</newvalue>
                 </mapping>
             </mappings>
         </value_map>
@@ -1550,36 +1571,15 @@
             <mappings>
                 <mapping>
                     <value>1</value>
-                    <newvalue>powerSupplyTwoOk</newvalue>
+                    <newvalue>Power Supply 2 Ok</newvalue>
                 </mapping>
                 <mapping>
                     <value>2</value>
-                    <newvalue>powerSupplyTwoFailed</newvalue>
+                    <newvalue>Power Supply 2 Failed</newvalue>
                 </mapping>
                 <mapping>
                     <value>3</value>
-                    <newvalue>powerSupplyTwoNotPresent</newvalue>
-                </mapping>
-            </mappings>
-        </value_map>
-        <value_map>
-            <name>APC Status Load State</name>
-            <mappings>
-                <mapping>
-                    <value>1</value>
-                    <newvalue>lowLoad</newvalue>
-                </mapping>
-                <mapping>
-                    <value>2</value>
-                    <newvalue>normal</newvalue>
-                </mapping>
-                <mapping>
-                    <value>3</value>
-                    <newvalue>nearOverload</newvalue>
-                </mapping>
-                <mapping>
-                    <value>4</value>
-                    <newvalue>overload</newvalue>
+                    <newvalue>Power Supply 2 Not Present</newvalue>
                 </mapping>
             </mappings>
         </value_map>
